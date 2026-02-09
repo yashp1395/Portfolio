@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Patil - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Yash Patil</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <!-- PROFILE IMAGE UPLOAD HERE -->
+                <!-- Replace 'profile-placeholder.jpg' with your actual image file -->
+                <img src="profile-placeholder.jpg" alt="Yash Patil" class="profile-image" id="profileImage">
+                <!-- If you don't have an image yet, a placeholder will show with your initials -->
+            </div>
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Yash Patil</span></h1>
+            <h2 class="hero-subtitle">Software Engineer | Java Developer | AI/ML Enthusiast</h2>
+            <p class="hero-description">Building scalable solutions with Spring Boot, microservices, and AI integration</p>
+            <div class="hero-buttons">
+                <!-- RESUME DOWNLOAD LINK HERE -->
+                <!-- Replace 'resume.pdf' with your actual resume file path -->
+                <a href="resume.pdf" download class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="mailto:yashpatil1395@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate software engineering student at <strong>Pune Institute of Computer Technology</strong>, specializing in enterprise Java development, microservices architecture, and AI/ML integration. With a CGPA of <strong>9.18</strong>, I combine strong academic performance with hands-on project experience.</p>
+                    <p>My expertise lies in building scalable backend systems using <strong>Spring Boot</strong>, designing intelligent solutions with <strong>AI integration</strong>, and creating full-stack applications that solve real-world problems. I've successfully delivered projects ranging from employee payroll management systems to AGV fleet optimization and ML-powered recommendation engines.</p>
+                    <p>As the <strong>Marketing Lead at CSI Club</strong> and a <strong>state-level award winner</strong> for ECI voter registration, I bring both technical excellence and leadership skills to every project I undertake.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>250+</h3>
+                        <p>DSA Problems Solved</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>9.18</h3>
+                        <p>CGPA</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>98.93%ile</h3>
+                        <p>MHT-CET</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline" id="experienceTimeline">
+                <!-- Experience will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="edu-cert-grid">
+                <div class="education-card">
+                    <h3>Education</h3>
+                    <div class="edu-item">
+                        <h4>Bachelor of Engineering - Information Technology</h4>
+                        <p class="institution">Pune Institute of Computer Technology</p>
+                        <p class="year">2023 - 2027 | CGPA: 9.18</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Senior Secondary</h4>
+                        <p class="institution">R.V. Jr. College, Chalisgaon</p>
+                        <p class="year">2023 | 77.00%</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Secondary</h4>
+                        <p class="institution">T.S.M.V., Chalisgaon</p>
+                        <p class="year">2021 | 92.40%</p>
+                    </div>
+                </div>
+                <div class="certifications-card">
+                    <h3>Certifications</h3>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Machine Learning Specialization</h4>
+                                <p>DeepLearning.AI, Stanford University</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Advanced Learning Algorithms</h4>
+                                <p>DeepLearning.AI, Stanford University</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Unsupervised Learning & Reinforcement Learning</h4>
+                                <p>DeepLearning.AI, Stanford University</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>AWS Cloud Fundamentals Bootcamp</h4>
+                                <p>Cloud Computing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Leadership</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing Lead</h3>
+                    <p>CSI Club, Pune Institute of Computer Technology</p>
+                    <span class="year">2025</span>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>ECI Student Registration Award</h3>
+                    <p>State-level award for record-breaking new voter registrations</p>
+                    <span class="year">2024</span>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-code"></i>
+                    <h3>250+ DSA Problems</h3>
+                    <p>Solved across LeetCode, Codeforces, HackerRank, GeeksforGeeks</p>
+                    <span class="year">Ongoing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:yashpatil1395@gmail.com">yashpatil1395@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919325150317">+91-9325150317</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com" target="_blank">Connect with me</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com" target="_blank">View my code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Yash Patil. Built with passion and code.</p>
+            <div class="footer-links">
+                <a href="mailto:yashpatil1395@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
