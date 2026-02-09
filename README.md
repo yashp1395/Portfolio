@@ -166,5 +166,3 @@ Free to use for personal portfolios.
 
 **Made with ❤️ by Yash Patil**
 
-```
-```
